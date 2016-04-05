@@ -1,0 +1,196 @@
+body {
+     color: black;
+     font-family: "Courier New", Courier, monospace;
+     font-size: 95% ;
+     text-align: center;
+     background-color: white;
+     border-width: 3;
+     margin-top:5px;
+	 margin-bottom:5px;
+	 margin-right:50px;
+	 margin-left:50px;
+	 margin:50px 0px; padding:0px; 
+	 }
+
+	 img {border: 0;}
+	 
+	 a:link { color: rgb(0, 0, 153) }
+	 a:visited { color: rgb(153, 0, 153) }
+	 a:hover { color: rgb(0, 96, 255) }
+	 a:active { color: rgb(255, 0, 102) }
+	 
+table{
+	font-family: Verdana;
+    font-size: 10pt;
+}
+	 
+textarea {
+	resize:none;
+} 
+	 
+.center {margin-left: auto;
+		margin-right: auto;}
+
+#Main{
+	position:absolute;
+	top:0px;
+	bottom:50px;
+	left:50px;
+	right:50px;
+	/*padding:5px;*/
+	width: auto;
+	/*height:100%;*/
+	/*background-color:#82B4DC;*/
+}
+
+#LoginBox {
+	position:relative;
+	top:0px;
+	right:0px;
+	left:0px;
+	
+	/*width:240px;*/
+	margin:0px; 
+	text-align:left; 
+	padding:0px;
+	/*background-color:#82B4DC;*/
+}
+
+#RegistrationBox {
+	position:relative;
+	top:0px;
+	right:0px;
+	left:0px;
+	
+	/*width:240px;*/
+	margin:0px; 
+	text-align:left; 
+	padding:0px;
+	width: auto;
+	/*background-color:#82B4DC;*/
+}
+
+#EditBox {
+	position:relative;
+	top:0px;
+	right:0px;
+	left:0px;
+	
+	/*width:240px;*/
+	margin:0px; 
+	text-align:left; 
+	padding:0px;
+	width: auto;
+	/*background-color:#82B4DC;*/
+}
+
+#UserHeader{
+	/*since width auto, then it centers and left
+	attribute is how many pixels from that center.   */
+	position:relative;
+	top:0px;	
+	left:300px;/*relative to center since width auto*/
+	/*padding:5px;*/
+	width: auto ;
+}
+
+#RightHome{
+	position:absolute;
+	top:100px;
+	left:401px;
+	/*padding:5px;*/
+	width: auto ;
+	background-color:white;
+}
+
+#shadowBox {
+-moz-box-shadow: 3px 3px 4px #f00;
+-webkit-box-shadow: 3px 3px 4px #f00;
+box-shadow: 3px 3px 4px #f00;
+}
+
+
+
+#Board{
+	position:relative;
+	top:0px;
+	left:0px;
+	/*padding:5px;*/
+	width: 400px ;
+}
+	
+#SighForm {	
+	width: auto ;
+	/*height:125px;*/
+	/*margin:-5px auto; */
+	text-align:left; 
+	/*padding:5px;*/
+	background-color:white;
+}
+
+#Sighs{	
+	/*width: auto ;*/
+	height:500px;
+	overflow:auto;
+}
+
+#EvenSighs{
+	/*width: auto ;*/
+	margin:-12px auto;
+	text-align:left; 
+	padding:15px; 
+	/*background-color:#eee;*/
+}
+
+#OddSighs{	
+	/*width: auto ;*/
+	margin:-12px auto;
+	text-align:left; 
+	padding:15px;
+	background-color:white;
+}
+
+
+
+
+#NotesBoard{					
+	position:absolute;
+	top:35px;
+	left:405px;
+	/*padding:5px;*/
+	width: auto ;
+}
+	
+#NotesForm {	
+	width: auto ;
+	/*height:125px;*/
+	/*margin:-5px auto; */
+	text-align:left; 
+	/*padding:5px;*/
+	background-color:white;
+}
+
+#Notes{	
+	/*width: auto ;*/
+	height:500px;
+	overflow:auto;
+}
+
+#EvenNotes{
+	/*width: auto ;*/
+	margin:-12px auto;
+	text-align:left; 
+	padding:15px; 
+	/*background-color:#eee;*/
+}
+
+#OddNotes{	
+	/*width: auto ;*/
+	margin:-12px auto;
+	text-align:left; 
+	padding:15px;
+	background-color:white;
+}
+
+
+
